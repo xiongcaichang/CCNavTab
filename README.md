@@ -2,6 +2,8 @@
 
 
 XCNavTab适用于快速搭建NavigationController和TabBarController相结合的框架 
+<img style="width:100;height:30" src="http://qq15223245.bj.bdysite.com/staticImg/XCNavTabdemo.gif"></img>
+
 
 <h3 style="color:#33ffff">使用方法</h3>
 
