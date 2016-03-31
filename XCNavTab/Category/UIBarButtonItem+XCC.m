@@ -1,7 +1,7 @@
 //
 //  UIBarButtonItem+XCC.m
-//  XCNavTabDemo
-//
+//  XCNavTab
+//  url:https://github.com/xiaocaiabc/XCNavTab
 //  Created by bear on 16/3/31.
 //  Copyright © 2016年 bear. All rights reserved.
 //
