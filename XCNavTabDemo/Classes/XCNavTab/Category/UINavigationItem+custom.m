@@ -1,7 +1,7 @@
 //
 //  UINavigationItem+custom.m
-//  新浪微博
-//
+//  XCNavTab
+//  url:https://github.com/xiaocaiabc/XCNavTab
 //  Created by 40  on 15/11/23.
 //  Copyright © 2015年 bear. All rights reserved.
 //

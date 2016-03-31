@@ -1,7 +1,7 @@
 //
-//  TabController.m
-//  Myproject
-//
+//  XCTabController.m
+//  XCNavTab
+//  url:https://github.com/xiaocaiabc/XCNavTab
 //  Created by bear on 15/11/22.
 //  Copyright © 2015年 bear. All rights reserved.
 //
