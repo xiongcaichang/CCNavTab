@@ -1,14 +1,14 @@
 //
-//  UIBarButtonItem+Create.m
-//  新浪微博
+//  UIBarButtonItem+XCC.m
+//  XCNavTabDemo
 //
-//  Created by apple on 14/11/21.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by bear on 16/3/31.
+//  Copyright © 2016年 bear. All rights reserved.
 //
 
-#import "UIBarButtonItem+Create.h"
+#import "UIBarButtonItem+XCC.h"
 
-@implementation UIBarButtonItem (Create)
+@implementation UIBarButtonItem (XCC)
 
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action
 {
@@ -18,7 +18,7 @@
     [button setFrame:CGRectMake(0, 0, 44, 44)];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     return  [[UIBarButtonItem alloc] initWithCustomView:button];
-    
+
 }
 
 @end

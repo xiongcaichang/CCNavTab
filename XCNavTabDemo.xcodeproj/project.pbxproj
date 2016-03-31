@@ -16,8 +16,6 @@
 		09B9542D1CAC2BDE007E2EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B9540B1CAC2BDE007E2EF5 /* main.m */; };
 		09B9542E1CAC2BDE007E2EF5 /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B9540F1CAC2BDE007E2EF5 /* ThreeController.m */; };
 		09B9542F1CAC2BDE007E2EF5 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B954131CAC2BDE007E2EF5 /* TwoController.m */; };
-		09B954301CAC2BDE007E2EF5 /* UIBarButtonItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B954191CAC2BDE007E2EF5 /* UIBarButtonItem+Create.m */; };
-		09B954311CAC2BDE007E2EF5 /* UIBarButtonItem+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B9541B1CAC2BDE007E2EF5 /* UIBarButtonItem+custom.m */; };
 		09B954321CAC2BDE007E2EF5 /* UINavigationItem+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B9541D1CAC2BDE007E2EF5 /* UINavigationItem+custom.m */; };
 		09B954331CAC2BDE007E2EF5 /* XCBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B9541F1CAC2BDE007E2EF5 /* XCBack.png */; };
 		09B954341CAC2BDE007E2EF5 /* XChome.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B954201CAC2BDE007E2EF5 /* XChome.png */; };
@@ -26,6 +24,7 @@
 		09B954371CAC2BDE007E2EF5 /* XCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B954261CAC2BDE007E2EF5 /* XCTabBar.m */; };
 		09B954381CAC2BDE007E2EF5 /* XCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B954281CAC2BDE007E2EF5 /* XCTabItem.m */; };
 		09B9543A1CAC2C25007E2EF5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B954391CAC2C25007E2EF5 /* Info.plist */; };
+		09B9543D1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B9543C1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +43,6 @@
 		09B9540F1CAC2BDE007E2EF5 /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		09B954121CAC2BDE007E2EF5 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		09B954131CAC2BDE007E2EF5 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
-		09B954181CAC2BDE007E2EF5 /* UIBarButtonItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Create.h"; sourceTree = "<group>"; };
-		09B954191CAC2BDE007E2EF5 /* UIBarButtonItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Create.m"; sourceTree = "<group>"; };
-		09B9541A1CAC2BDE007E2EF5 /* UIBarButtonItem+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+custom.h"; sourceTree = "<group>"; };
-		09B9541B1CAC2BDE007E2EF5 /* UIBarButtonItem+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+custom.m"; sourceTree = "<group>"; };
 		09B9541C1CAC2BDE007E2EF5 /* UINavigationItem+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+custom.h"; sourceTree = "<group>"; };
 		09B9541D1CAC2BDE007E2EF5 /* UINavigationItem+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+custom.m"; sourceTree = "<group>"; };
 		09B9541F1CAC2BDE007E2EF5 /* XCBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XCBack.png; sourceTree = "<group>"; };
@@ -61,6 +56,8 @@
 		09B954271CAC2BDE007E2EF5 /* XCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTabItem.h; sourceTree = "<group>"; };
 		09B954281CAC2BDE007E2EF5 /* XCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTabItem.m; sourceTree = "<group>"; };
 		09B954391CAC2C25007E2EF5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B9543B1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
+		09B9543C1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +110,9 @@
 		09B953FE1CAC2BDE007E2EF5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				09B954071CAC2BDE007E2EF5 /* others */,
 				09B953FF1CAC2BDE007E2EF5 /* Main */,
 				09B954031CAC2BDE007E2EF5 /* One */,
-				09B954071CAC2BDE007E2EF5 /* others */,
 				09B9540C1CAC2BDE007E2EF5 /* Three */,
 				09B954101CAC2BDE007E2EF5 /* Two */,
 				09B954161CAC2BDE007E2EF5 /* XCNavTab */,
@@ -188,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				09B954111CAC2BDE007E2EF5 /* Controller */,
-				09B954141CAC2BDE007E2EF5 /* Three */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -198,21 +194,6 @@
 			children = (
 				09B954121CAC2BDE007E2EF5 /* TwoController.h */,
 				09B954131CAC2BDE007E2EF5 /* TwoController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		09B954141CAC2BDE007E2EF5 /* Three */ = {
-			isa = PBXGroup;
-			children = (
-				09B954151CAC2BDE007E2EF5 /* Controller */,
-			);
-			path = Three;
-			sourceTree = "<group>";
-		};
-		09B954151CAC2BDE007E2EF5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,12 +218,10 @@
 		09B954171CAC2BDE007E2EF5 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				09B954181CAC2BDE007E2EF5 /* UIBarButtonItem+Create.h */,
-				09B954191CAC2BDE007E2EF5 /* UIBarButtonItem+Create.m */,
-				09B9541A1CAC2BDE007E2EF5 /* UIBarButtonItem+custom.h */,
-				09B9541B1CAC2BDE007E2EF5 /* UIBarButtonItem+custom.m */,
 				09B9541C1CAC2BDE007E2EF5 /* UINavigationItem+custom.h */,
 				09B9541D1CAC2BDE007E2EF5 /* UINavigationItem+custom.m */,
+				09B9543B1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.h */,
+				09B9543C1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -330,11 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B9542F1CAC2BDE007E2EF5 /* TwoController.m in Sources */,
+				09B9543D1CAC34EC007E2EF5 /* UIBarButtonItem+XCC.m in Sources */,
 				09B9542A1CAC2BDE007E2EF5 /* OneController.m in Sources */,
 				09B954351CAC2BDE007E2EF5 /* XCNavigationController.m in Sources */,
-				09B954301CAC2BDE007E2EF5 /* UIBarButtonItem+Create.m in Sources */,
 				09B9542E1CAC2BDE007E2EF5 /* ThreeController.m in Sources */,
-				09B954311CAC2BDE007E2EF5 /* UIBarButtonItem+custom.m in Sources */,
 				09B954291CAC2BDE007E2EF5 /* MainController.m in Sources */,
 				09B954371CAC2BDE007E2EF5 /* XCTabBar.m in Sources */,
 				09B954321CAC2BDE007E2EF5 /* UINavigationItem+custom.m in Sources */,

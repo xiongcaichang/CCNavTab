@@ -26,7 +26,7 @@
     button.backgroundColor=[UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
 
 
-    [button setTitle:@"第一个控制器" forState:UIControlStateNormal];
+    [button setTitle:@"点击跳转" forState:UIControlStateNormal];
     [self.view addSubview:button];
 
     [button addTarget:self action:@selector(jumpToThree) forControlEvents:UIControlEventTouchUpInside];

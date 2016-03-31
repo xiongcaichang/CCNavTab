@@ -1,14 +1,14 @@
 //
-//  UIBarButtonItem+Create.h
-//  新浪微博
+//  UIBarButtonItem+XCC.h
+//  XCNavTabDemo
 //
-//  Created by apple on 14/11/21.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by bear on 16/3/31.
+//  Copyright © 2016年 bear. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIBarButtonItem (Create)
+@interface UIBarButtonItem (XCC)
 /**
  * 快速创建item
  */
