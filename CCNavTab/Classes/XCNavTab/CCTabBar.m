@@ -1,7 +1,7 @@
 //
-//  CCTabBar.m
-//  CCNavTab
-//  url:https://github.com/xiaocaiabc/CCNavTab
+//  TabBar.m
+//  Myproject
+//
 //  Created by bear on 15/11/19.
 //  Copyright © 2015年 bear. All rights reserved.
 //
@@ -20,12 +20,14 @@
     [item setTitle:title forState:UIControlStateNormal];
     item.titleLabel.textColor=[UIColor lightGrayColor];
 
+    // 图标
     [item setImage:[UIImage imageNamed:icon] forState:UIControlStateNormal];
     [item setImage:[UIImage imageNamed:selected] forState:UIControlStateSelected];
 
-    // 监听点击
+    // 监听item的点击
     [item addTarget:self action:@selector(itemClick:) forControlEvents:UIControlEventTouchDown];
 
+    // 2.添加item
     [self addSubview:item];
     NSInteger count = self.subviews.count;
     
@@ -35,11 +37,11 @@
     }
 
     // 3.调整所有item的frame
-    CGFloat height = self.frame.size.height;
-    CGFloat width = self.frame.size.width / count;
+    CGFloat height = self.frame.size.height; // 高度
+    CGFloat width = self.frame.size.width / count; // 宽度
     for (int i = 0; i<count; i++) {
         CCTabItem *tabItem = self.subviews[i];
-        tabItem .tag = i;
+        tabItem .tag = i; // 绑定标记
         tabItem .frame = CGRectMake(width * i, 0, width, height);
     }
 }
@@ -48,11 +50,13 @@
 - (void)itemClick:(CCTabItem *)item
 {
 
+
+      // 0.通知代理
     if ([_delegate respondsToSelector:@selector(tabbar:to:)]) {
         [_delegate tabbar:self to:item.tag ];
     }
 
-      // 1.取消选中
+      // 1.取消选中当前选中的item
       _selectedItem.selected = NO;
 
       // 2.选中点击的item
@@ -60,7 +64,7 @@
 
       // 3.赋值
       _selectedItem = item;
-
+      NSLog(@"click   is   😊 %@",item);
 }
 
 

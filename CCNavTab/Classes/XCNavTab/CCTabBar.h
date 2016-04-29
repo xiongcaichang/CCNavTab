@@ -1,7 +1,7 @@
 //
-//  CCTabBar.h
-//  CCNavTab
-//  url:https://github.com/xiaocaiabc/CCNavTab
+//  TabBar.h
+//  Myproject
+//
 //  Created by bear on 15/11/19.
 //  Copyright © 2015年 bear. All rights reserved.
 //
@@ -14,7 +14,7 @@
 @class CCTabBar;
 
 
-//item点击事件的代理
+
 @protocol CCTabBarDelegate <NSObject>
 
 @optional
@@ -23,10 +23,13 @@
 @end
 
 
+
+
 @interface CCTabBar : UIView
 
 @property (nonatomic, weak) CCTabItem *selectedItem;
 
+//添加tab按钮的方法
 -(void)addItemWithIcon:(NSString *)icon  selectedIcon:(NSString *)icon_selected title:(NSString *)title;
 
 @property (nonatomic,weak) id<CCTabBarDelegate> delegate;
