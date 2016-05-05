@@ -18,7 +18,6 @@
 		09C6C3381CD30F49006D16ED /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3281CD30F49006D16ED /* UIBarButtonItem+XCC.m */; };
 		09C6C3391CD30F49006D16ED /* UINavigationItem+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */; };
 		09C6C33A1CD30F49006D16ED /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C32C1CD30F49006D16ED /* CCNavigationController.m */; };
-		09C6C33B1CD30F49006D16ED /* CCNavTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C32E1CD30F49006D16ED /* CCNavTabController.m */; };
 		09C6C33C1CD30F49006D16ED /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3301CD30F49006D16ED /* CCTabBar.m */; };
 		09C6C33D1CD30F49006D16ED /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3321CD30F49006D16ED /* CCTabController.m */; };
 		09C6C33E1CD30F49006D16ED /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3341CD30F49006D16ED /* CCTabItem.m */; };
@@ -48,8 +47,6 @@
 		09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+custom.m"; sourceTree = "<group>"; };
 		09C6C32B1CD30F49006D16ED /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
 		09C6C32C1CD30F49006D16ED /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
-		09C6C32D1CD30F49006D16ED /* CCNavTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavTabController.h; sourceTree = "<group>"; };
-		09C6C32E1CD30F49006D16ED /* CCNavTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavTabController.m; sourceTree = "<group>"; };
 		09C6C32F1CD30F49006D16ED /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
 		09C6C3301CD30F49006D16ED /* CCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabBar.m; sourceTree = "<group>"; };
 		09C6C3311CD30F49006D16ED /* CCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabController.h; sourceTree = "<group>"; };
@@ -203,12 +200,10 @@
 				09C6C3261CD30F49006D16ED /* Category */,
 				09C6C32B1CD30F49006D16ED /* CCNavigationController.h */,
 				09C6C32C1CD30F49006D16ED /* CCNavigationController.m */,
-				09C6C32D1CD30F49006D16ED /* CCNavTabController.h */,
-				09C6C32E1CD30F49006D16ED /* CCNavTabController.m */,
-				09C6C32F1CD30F49006D16ED /* CCTabBar.h */,
-				09C6C3301CD30F49006D16ED /* CCTabBar.m */,
 				09C6C3311CD30F49006D16ED /* CCTabController.h */,
 				09C6C3321CD30F49006D16ED /* CCTabController.m */,
+				09C6C32F1CD30F49006D16ED /* CCTabBar.h */,
+				09C6C3301CD30F49006D16ED /* CCTabBar.m */,
 				09C6C3331CD30F49006D16ED /* CCTabItem.h */,
 				09C6C3341CD30F49006D16ED /* CCTabItem.m */,
 				09C6C3351CD30F49006D16ED /* resources */,
@@ -315,7 +310,6 @@
 				090A822E1CC31C4C002F6EE2 /* AppDelegate.m in Sources */,
 				090A82311CC31C4C002F6EE2 /* TwoController.m in Sources */,
 				09C6C33E1CD30F49006D16ED /* CCTabItem.m in Sources */,
-				09C6C33B1CD30F49006D16ED /* CCNavTabController.m in Sources */,
 				090A822D1CC31C4C002F6EE2 /* OneController.m in Sources */,
 				090A81F11CC31C2F002F6EE2 /* main.m in Sources */,
 				09C6C3391CD30F49006D16ED /* UINavigationItem+custom.m in Sources */,
