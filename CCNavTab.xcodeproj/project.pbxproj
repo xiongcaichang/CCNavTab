@@ -21,8 +21,6 @@
 		09C6C33C1CD30F49006D16ED /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3301CD30F49006D16ED /* CCTabBar.m */; };
 		09C6C33D1CD30F49006D16ED /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3321CD30F49006D16ED /* CCTabController.m */; };
 		09C6C33E1CD30F49006D16ED /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3341CD30F49006D16ED /* CCTabItem.m */; };
-		09C6C33F1CD30F49006D16ED /* XCBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C6C3361CD30F49006D16ED /* XCBack.png */; };
-		09C6C3401CD30F49006D16ED /* XChome.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C6C3371CD30F49006D16ED /* XChome.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +51,6 @@
 		09C6C3321CD30F49006D16ED /* CCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabController.m; sourceTree = "<group>"; };
 		09C6C3331CD30F49006D16ED /* CCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabItem.h; sourceTree = "<group>"; };
 		09C6C3341CD30F49006D16ED /* CCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabItem.m; sourceTree = "<group>"; };
-		09C6C3361CD30F49006D16ED /* XCBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XCBack.png; sourceTree = "<group>"; };
-		09C6C3371CD30F49006D16ED /* XChome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XChome.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +202,6 @@
 				09C6C3301CD30F49006D16ED /* CCTabBar.m */,
 				09C6C3331CD30F49006D16ED /* CCTabItem.h */,
 				09C6C3341CD30F49006D16ED /* CCTabItem.m */,
-				09C6C3351CD30F49006D16ED /* resources */,
 			);
 			path = CCNavTab;
 			sourceTree = "<group>";
@@ -220,15 +215,6 @@
 				09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		09C6C3351CD30F49006D16ED /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				09C6C3361CD30F49006D16ED /* XCBack.png */,
-				09C6C3371CD30F49006D16ED /* XChome.png */,
-			);
-			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090A81FF1CC31C2F002F6EE2 /* LaunchScreen.storyboard in Resources */,
-				09C6C3401CD30F49006D16ED /* XChome.png in Resources */,
 				090A81FC1CC31C2F002F6EE2 /* Assets.xcassets in Resources */,
-				09C6C33F1CD30F49006D16ED /* XCBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
