@@ -1,7 +1,6 @@
 # CC NavTab
 
 
-<img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demo.png" alt="Drawing" width="300px" />
 
 > CCNavTab  快速搭建  IOS  UI  主流框架  
 
@@ -34,4 +33,6 @@
                                      ];```
 
 
+>  截图
+<img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demo.png" alt="Drawing" width="300px" />
 
