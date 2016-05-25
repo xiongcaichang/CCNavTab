@@ -1,11 +1,10 @@
 //
-//  CCTabController.m
-//  CCNavTab
-//  url:https://github.com/xiaocaiabc/CCNavTab
-//  Created by bear on 15/11/22.
-//  Copyright © 2015年 bear. All rights reserved.
+//  UIBarButtonItem+XCC.m
+//  XCNavTab
+//  url:https://github.com/xiongcaichang/CCNavTab
+//  Created by bear on 16/3/31.
+//  Copyright © 2016年 bear. All rights reserved.
 //
-
 #import "CCTabController.h"
 #import "CCNavigationController.h"
 

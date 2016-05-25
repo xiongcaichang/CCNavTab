@@ -6,8 +6,8 @@
 //  Copyright © 2016年 bear. All rights reserved.
 //
 
-#import "CCTabController.h"
+#import <UIKit/UIKit.h>
 
-@interface MainController : CCTabController
+@interface CCTabItem : UIButton
 
 @end

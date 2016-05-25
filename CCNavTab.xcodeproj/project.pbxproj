@@ -15,12 +15,11 @@
 		090A822E1CC31C4C002F6EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A82111CC31C4C002F6EE2 /* AppDelegate.m */; };
 		090A82301CC31C4C002F6EE2 /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A82161CC31C4C002F6EE2 /* ThreeController.m */; };
 		090A82311CC31C4C002F6EE2 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A821A1CC31C4C002F6EE2 /* TwoController.m */; };
-		09C6C3381CD30F49006D16ED /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3281CD30F49006D16ED /* UIBarButtonItem+XCC.m */; };
-		09C6C3391CD30F49006D16ED /* UINavigationItem+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */; };
-		09C6C33A1CD30F49006D16ED /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C32C1CD30F49006D16ED /* CCNavigationController.m */; };
-		09C6C33C1CD30F49006D16ED /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3301CD30F49006D16ED /* CCTabBar.m */; };
-		09C6C33D1CD30F49006D16ED /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3321CD30F49006D16ED /* CCTabController.m */; };
-		09C6C33E1CD30F49006D16ED /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C6C3341CD30F49006D16ED /* CCTabItem.m */; };
+		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */; };
+		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
+		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
+		09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */; };
+		09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,18 +38,16 @@
 		090A82161CC31C4C002F6EE2 /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		090A82191CC31C4C002F6EE2 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		090A821A1CC31C4C002F6EE2 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
-		09C6C3271CD30F49006D16ED /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
-		09C6C3281CD30F49006D16ED /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
-		09C6C3291CD30F49006D16ED /* UINavigationItem+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+custom.h"; sourceTree = "<group>"; };
-		09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+custom.m"; sourceTree = "<group>"; };
-		09C6C32B1CD30F49006D16ED /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
-		09C6C32C1CD30F49006D16ED /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
-		09C6C32F1CD30F49006D16ED /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
-		09C6C3301CD30F49006D16ED /* CCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabBar.m; sourceTree = "<group>"; };
-		09C6C3311CD30F49006D16ED /* CCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabController.h; sourceTree = "<group>"; };
-		09C6C3321CD30F49006D16ED /* CCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabController.m; sourceTree = "<group>"; };
-		09C6C3331CD30F49006D16ED /* CCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabItem.h; sourceTree = "<group>"; };
-		09C6C3341CD30F49006D16ED /* CCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabItem.m; sourceTree = "<group>"; };
+		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
+		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
+		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
+		09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
+		09FAEE181CF571AA00D8DB71 /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
+		09FAEE191CF571AA00D8DB71 /* CCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabBar.m; sourceTree = "<group>"; };
+		09FAEE1A1CF571AA00D8DB71 /* CCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabController.h; sourceTree = "<group>"; };
+		09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabController.m; sourceTree = "<group>"; };
+		09FAEE1C1CF571AA00D8DB71 /* CCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabItem.h; sourceTree = "<group>"; };
+		09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +100,7 @@
 		090A82061CC31C4C002F6EE2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				09C6C3251CD30F49006D16ED /* CCNavTab */,
+				09FAEE111CF571AA00D8DB71 /* Lib */,
 				090A82071CC31C4C002F6EE2 /* Main */,
 				090A820B1CC31C4C002F6EE2 /* One */,
 				090A820F1CC31C4C002F6EE2 /* others */,
@@ -190,29 +187,35 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		09C6C3251CD30F49006D16ED /* CCNavTab */ = {
+		09FAEE111CF571AA00D8DB71 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				09C6C3261CD30F49006D16ED /* Category */,
-				09C6C32B1CD30F49006D16ED /* CCNavigationController.h */,
-				09C6C32C1CD30F49006D16ED /* CCNavigationController.m */,
-				09C6C3311CD30F49006D16ED /* CCTabController.h */,
-				09C6C3321CD30F49006D16ED /* CCTabController.m */,
-				09C6C32F1CD30F49006D16ED /* CCTabBar.h */,
-				09C6C3301CD30F49006D16ED /* CCTabBar.m */,
-				09C6C3331CD30F49006D16ED /* CCTabItem.h */,
-				09C6C3341CD30F49006D16ED /* CCTabItem.m */,
+				09FAEE121CF571AA00D8DB71 /* CCNavTab */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		09FAEE121CF571AA00D8DB71 /* CCNavTab */ = {
+			isa = PBXGroup;
+			children = (
+				09FAEE131CF571AA00D8DB71 /* Category */,
+				09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */,
+				09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */,
+				09FAEE181CF571AA00D8DB71 /* CCTabBar.h */,
+				09FAEE191CF571AA00D8DB71 /* CCTabBar.m */,
+				09FAEE1A1CF571AA00D8DB71 /* CCTabController.h */,
+				09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */,
+				09FAEE1C1CF571AA00D8DB71 /* CCTabItem.h */,
+				09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */,
 			);
 			path = CCNavTab;
 			sourceTree = "<group>";
 		};
-		09C6C3261CD30F49006D16ED /* Category */ = {
+		09FAEE131CF571AA00D8DB71 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				09C6C3271CD30F49006D16ED /* UIBarButtonItem+XCC.h */,
-				09C6C3281CD30F49006D16ED /* UIBarButtonItem+XCC.m */,
-				09C6C3291CD30F49006D16ED /* UINavigationItem+custom.h */,
-				09C6C32A1CD30F49006D16ED /* UINavigationItem+custom.m */,
+				09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */,
+				09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -286,18 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */,
 				090A82301CC31C4C002F6EE2 /* ThreeController.m in Sources */,
-				09C6C33D1CD30F49006D16ED /* CCTabController.m in Sources */,
-				09C6C33C1CD30F49006D16ED /* CCTabBar.m in Sources */,
-				09C6C3381CD30F49006D16ED /* UIBarButtonItem+XCC.m in Sources */,
+				09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */,
+				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */,
+				09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */,
 				090A822C1CC31C4C002F6EE2 /* MainController.m in Sources */,
 				090A822E1CC31C4C002F6EE2 /* AppDelegate.m in Sources */,
 				090A82311CC31C4C002F6EE2 /* TwoController.m in Sources */,
-				09C6C33E1CD30F49006D16ED /* CCTabItem.m in Sources */,
+				09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */,
 				090A822D1CC31C4C002F6EE2 /* OneController.m in Sources */,
 				090A81F11CC31C2F002F6EE2 /* main.m in Sources */,
-				09C6C3391CD30F49006D16ED /* UINavigationItem+custom.m in Sources */,
-				09C6C33A1CD30F49006D16ED /* CCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
