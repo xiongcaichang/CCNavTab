@@ -1,7 +1,8 @@
 # CC NavTab
 
-![demo png](https://github.com/xiongcaichang/CCNavTab/blob/master/demo.png =320x480)
 
+![demopng](https://github.com/xiongcaichang/CCNavTab/blob/master/demo.png)
+img[alt=demopng] { width: 200px; }
 
 > CCNavTab  快速搭建  IOS  UI  主流框架  
 
