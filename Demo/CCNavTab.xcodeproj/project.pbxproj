@@ -11,10 +11,10 @@
 		090A81FC1CC31C2F002F6EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */; };
 		090A81FF1CC31C2F002F6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */; };
 		095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1781D05C266005D9FCC /* AppDelegate.m */; };
-		095FD1821D05C61D005D9FCC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17B1D05C61D005D9FCC /* MainController.m */; };
-		095FD1831D05C61D005D9FCC /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17D1D05C61D005D9FCC /* OneController.m */; };
-		095FD1841D05C61D005D9FCC /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17F1D05C61D005D9FCC /* ThreeController.m */; };
-		095FD1851D05C61D005D9FCC /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1811D05C61D005D9FCC /* TwoController.m */; };
+		095FD1BE1D05DED8005D9FCC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1B41D05DED8005D9FCC /* MainController.m */; };
+		095FD1BF1D05DED8005D9FCC /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1B71D05DED8005D9FCC /* OneController.m */; };
+		095FD1C01D05DED8005D9FCC /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BA1D05DED8005D9FCC /* ThreeController.m */; };
+		095FD1C11D05DED8005D9FCC /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BD1D05DED8005D9FCC /* TwoController.m */; };
 		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */; };
 		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
 		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
@@ -30,14 +30,14 @@
 		090A82001CC31C2F002F6EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		095FD1771D05C266005D9FCC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		095FD1781D05C266005D9FCC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		095FD17A1D05C61D005D9FCC /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
-		095FD17B1D05C61D005D9FCC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
-		095FD17C1D05C61D005D9FCC /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
-		095FD17D1D05C61D005D9FCC /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
-		095FD17E1D05C61D005D9FCC /* ThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeController.h; sourceTree = "<group>"; };
-		095FD17F1D05C61D005D9FCC /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
-		095FD1801D05C61D005D9FCC /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
-		095FD1811D05C61D005D9FCC /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+		095FD1B31D05DED8005D9FCC /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		095FD1B41D05DED8005D9FCC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		095FD1B61D05DED8005D9FCC /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
+		095FD1B71D05DED8005D9FCC /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
+		095FD1B91D05DED8005D9FCC /* ThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeController.h; sourceTree = "<group>"; };
+		095FD1BA1D05DED8005D9FCC /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
+		095FD1BC1D05DED8005D9FCC /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
+		095FD1BD1D05DED8005D9FCC /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
 		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
 		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
 		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
@@ -80,8 +80,6 @@
 		090A81EE1CC31C2F002F6EE2 /* CCNavTab */ = {
 			isa = PBXGroup;
 			children = (
-				095FD1771D05C266005D9FCC /* AppDelegate.h */,
-				095FD1781D05C266005D9FCC /* AppDelegate.m */,
 				090A82061CC31C4C002F6EE2 /* Classes */,
 				090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */,
 				090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */,
@@ -94,6 +92,8 @@
 		090A81EF1CC31C2F002F6EE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				095FD1771D05C266005D9FCC /* AppDelegate.h */,
+				095FD1781D05C266005D9FCC /* AppDelegate.m */,
 				090A81F01CC31C2F002F6EE2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -102,17 +102,49 @@
 		090A82061CC31C4C002F6EE2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				095FD17A1D05C61D005D9FCC /* MainController.h */,
-				095FD17B1D05C61D005D9FCC /* MainController.m */,
-				095FD17C1D05C61D005D9FCC /* OneController.h */,
-				095FD17D1D05C61D005D9FCC /* OneController.m */,
-				095FD17E1D05C61D005D9FCC /* ThreeController.h */,
-				095FD17F1D05C61D005D9FCC /* ThreeController.m */,
-				095FD1801D05C61D005D9FCC /* TwoController.h */,
-				095FD1811D05C61D005D9FCC /* TwoController.m */,
+				095FD1B21D05DED8005D9FCC /* Main */,
+				095FD1B51D05DED8005D9FCC /* One */,
+				095FD1B81D05DED8005D9FCC /* Three */,
+				095FD1BB1D05DED8005D9FCC /* Two */,
 				09FAEE111CF571AA00D8DB71 /* Lib */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		095FD1B21D05DED8005D9FCC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				095FD1B31D05DED8005D9FCC /* MainController.h */,
+				095FD1B41D05DED8005D9FCC /* MainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		095FD1B51D05DED8005D9FCC /* One */ = {
+			isa = PBXGroup;
+			children = (
+				095FD1B61D05DED8005D9FCC /* OneController.h */,
+				095FD1B71D05DED8005D9FCC /* OneController.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		095FD1B81D05DED8005D9FCC /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				095FD1B91D05DED8005D9FCC /* ThreeController.h */,
+				095FD1BA1D05DED8005D9FCC /* ThreeController.m */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		095FD1BB1D05DED8005D9FCC /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				095FD1BC1D05DED8005D9FCC /* TwoController.h */,
+				095FD1BD1D05DED8005D9FCC /* TwoController.m */,
+			);
+			path = Two;
 			sourceTree = "<group>";
 		};
 		09FAEE111CF571AA00D8DB71 /* Lib */ = {
@@ -217,14 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095FD1841D05C61D005D9FCC /* ThreeController.m in Sources */,
+				095FD1C01D05DED8005D9FCC /* ThreeController.m in Sources */,
 				095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */,
 				09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */,
 				09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */,
 				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */,
-				095FD1821D05C61D005D9FCC /* MainController.m in Sources */,
-				095FD1851D05C61D005D9FCC /* TwoController.m in Sources */,
-				095FD1831D05C61D005D9FCC /* OneController.m in Sources */,
+				095FD1BE1D05DED8005D9FCC /* MainController.m in Sources */,
+				095FD1C11D05DED8005D9FCC /* TwoController.m in Sources */,
+				095FD1BF1D05DED8005D9FCC /* OneController.m in Sources */,
 				09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */,
 				09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */,
 				090A81F11CC31C2F002F6EE2 /* main.m in Sources */,
