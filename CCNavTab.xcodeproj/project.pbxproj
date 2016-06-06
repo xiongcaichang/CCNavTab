@@ -12,9 +12,9 @@
 		090A81FF1CC31C2F002F6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */; };
 		090A822C1CC31C4C002F6EE2 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A820A1CC31C4C002F6EE2 /* MainController.m */; };
 		090A822D1CC31C4C002F6EE2 /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A820E1CC31C4C002F6EE2 /* OneController.m */; };
-		090A822E1CC31C4C002F6EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A82111CC31C4C002F6EE2 /* AppDelegate.m */; };
 		090A82301CC31C4C002F6EE2 /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A82161CC31C4C002F6EE2 /* ThreeController.m */; };
 		090A82311CC31C4C002F6EE2 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A821A1CC31C4C002F6EE2 /* TwoController.m */; };
+		095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1781D05C266005D9FCC /* AppDelegate.m */; };
 		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */; };
 		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
 		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
@@ -32,12 +32,12 @@
 		090A820A1CC31C4C002F6EE2 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		090A820D1CC31C4C002F6EE2 /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
 		090A820E1CC31C4C002F6EE2 /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
-		090A82101CC31C4C002F6EE2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		090A82111CC31C4C002F6EE2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		090A82151CC31C4C002F6EE2 /* ThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeController.h; sourceTree = "<group>"; };
 		090A82161CC31C4C002F6EE2 /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		090A82191CC31C4C002F6EE2 /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		090A821A1CC31C4C002F6EE2 /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+		095FD1771D05C266005D9FCC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		095FD1781D05C266005D9FCC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
 		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
 		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
@@ -80,6 +80,8 @@
 		090A81EE1CC31C2F002F6EE2 /* CCNavTab */ = {
 			isa = PBXGroup;
 			children = (
+				095FD1771D05C266005D9FCC /* AppDelegate.h */,
+				095FD1781D05C266005D9FCC /* AppDelegate.m */,
 				090A82061CC31C4C002F6EE2 /* Classes */,
 				090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */,
 				090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */,
@@ -103,7 +105,6 @@
 				09FAEE111CF571AA00D8DB71 /* Lib */,
 				090A82071CC31C4C002F6EE2 /* Main */,
 				090A820B1CC31C4C002F6EE2 /* One */,
-				090A820F1CC31C4C002F6EE2 /* others */,
 				090A82131CC31C4C002F6EE2 /* Three */,
 				090A82171CC31C4C002F6EE2 /* Two */,
 			);
@@ -142,15 +143,6 @@
 				090A820E1CC31C4C002F6EE2 /* OneController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		090A820F1CC31C4C002F6EE2 /* others */ = {
-			isa = PBXGroup;
-			children = (
-				090A82101CC31C4C002F6EE2 /* AppDelegate.h */,
-				090A82111CC31C4C002F6EE2 /* AppDelegate.m */,
-			);
-			path = others;
 			sourceTree = "<group>";
 		};
 		090A82131CC31C4C002F6EE2 /* Three */ = {
@@ -289,13 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */,
 				09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */,
 				090A82301CC31C4C002F6EE2 /* ThreeController.m in Sources */,
 				09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */,
 				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */,
 				09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */,
 				090A822C1CC31C4C002F6EE2 /* MainController.m in Sources */,
-				090A822E1CC31C4C002F6EE2 /* AppDelegate.m in Sources */,
 				090A82311CC31C4C002F6EE2 /* TwoController.m in Sources */,
 				09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */,
 				090A822D1CC31C4C002F6EE2 /* OneController.m in Sources */,
