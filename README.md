@@ -4,6 +4,12 @@
 
 > CCNavTab  快速搭建  IOS  UI  主流框架  
 
+
+>  Pod  导入
+```
+ pod 'CCNavTab'
+ ```
+
 1. 使用方法
 	新建工程,讲 CCNavTab 的demo  的 Lib  文件夹拖入您的项目
 2. 新建主控制器  MainController  继承自 CCTabController
