@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainController.h"
+
 
 @interface AppDelegate ()
 
