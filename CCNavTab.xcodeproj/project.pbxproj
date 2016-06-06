@@ -7,51 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090A81F11CC31C2F002F6EE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A81F01CC31C2F002F6EE2 /* main.m */; };
-		090A81FC1CC31C2F002F6EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */; };
-		090A81FF1CC31C2F002F6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */; };
-		095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1781D05C266005D9FCC /* AppDelegate.m */; };
-		095FD1821D05C61D005D9FCC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17B1D05C61D005D9FCC /* MainController.m */; };
-		095FD1831D05C61D005D9FCC /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17D1D05C61D005D9FCC /* OneController.m */; };
-		095FD1841D05C61D005D9FCC /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD17F1D05C61D005D9FCC /* ThreeController.m */; };
-		095FD1851D05C61D005D9FCC /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1811D05C61D005D9FCC /* TwoController.m */; };
-		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */; };
-		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
-		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
-		09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */; };
-		09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */; };
+		095FD1951D05CB7E005D9FCC /* CCNavTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1941D05CB7E005D9FCC /* CCNavTab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+XCC.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */; };
+		095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */; };
+		095FD1AA1D05CB9D005D9FCC /* CCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A01D05CB9D005D9FCC /* CCNavigationController.h */; };
+		095FD1AB1D05CB9D005D9FCC /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1A11D05CB9D005D9FCC /* CCNavigationController.m */; };
+		095FD1AC1D05CB9D005D9FCC /* CCTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A21D05CB9D005D9FCC /* CCTabBar.h */; };
+		095FD1AD1D05CB9D005D9FCC /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1A31D05CB9D005D9FCC /* CCTabBar.m */; };
+		095FD1AE1D05CB9D005D9FCC /* CCTabController.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A41D05CB9D005D9FCC /* CCTabController.h */; };
+		095FD1AF1D05CB9D005D9FCC /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1A51D05CB9D005D9FCC /* CCTabController.m */; };
+		095FD1B01D05CB9D005D9FCC /* CCTabItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A61D05CB9D005D9FCC /* CCTabItem.h */; };
+		095FD1B11D05CB9D005D9FCC /* CCTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1A71D05CB9D005D9FCC /* CCTabItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		090A81EC1CC31C2F002F6EE2 /* CCNavTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCNavTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		090A81F01CC31C2F002F6EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		090A81FE1CC31C2F002F6EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		090A82001CC31C2F002F6EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		095FD1771D05C266005D9FCC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		095FD1781D05C266005D9FCC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		095FD17A1D05C61D005D9FCC /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
-		095FD17B1D05C61D005D9FCC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
-		095FD17C1D05C61D005D9FCC /* OneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
-		095FD17D1D05C61D005D9FCC /* OneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
-		095FD17E1D05C61D005D9FCC /* ThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeController.h; sourceTree = "<group>"; };
-		095FD17F1D05C61D005D9FCC /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
-		095FD1801D05C61D005D9FCC /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
-		095FD1811D05C61D005D9FCC /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
-		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
-		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
-		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
-		09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
-		09FAEE181CF571AA00D8DB71 /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
-		09FAEE191CF571AA00D8DB71 /* CCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabBar.m; sourceTree = "<group>"; };
-		09FAEE1A1CF571AA00D8DB71 /* CCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabController.h; sourceTree = "<group>"; };
-		09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabController.m; sourceTree = "<group>"; };
-		09FAEE1C1CF571AA00D8DB71 /* CCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabItem.h; sourceTree = "<group>"; };
-		09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabItem.m; sourceTree = "<group>"; };
+		095FD1911D05CB7E005D9FCC /* CCNavTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCNavTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		095FD1941D05CB7E005D9FCC /* CCNavTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCNavTab.h; sourceTree = "<group>"; };
+		095FD1961D05CB7E005D9FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
+		095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
+		095FD1A01D05CB9D005D9FCC /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
+		095FD1A11D05CB9D005D9FCC /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
+		095FD1A21D05CB9D005D9FCC /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
+		095FD1A31D05CB9D005D9FCC /* CCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabBar.m; sourceTree = "<group>"; };
+		095FD1A41D05CB9D005D9FCC /* CCTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabController.h; sourceTree = "<group>"; };
+		095FD1A51D05CB9D005D9FCC /* CCTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabController.m; sourceTree = "<group>"; };
+		095FD1A61D05CB9D005D9FCC /* CCTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabItem.h; sourceTree = "<group>"; };
+		095FD1A71D05CB9D005D9FCC /* CCTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTabItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		090A81E91CC31C2F002F6EE2 /* Frameworks */ = {
+		095FD18D1D05CB7E005D9FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,103 +47,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090A81E31CC31C2F002F6EE2 = {
+		095FD1871D05CB7E005D9FCC = {
 			isa = PBXGroup;
 			children = (
-				090A81EE1CC31C2F002F6EE2 /* CCNavTab */,
-				090A81ED1CC31C2F002F6EE2 /* Products */,
+				095FD1931D05CB7E005D9FCC /* CCNavTab */,
+				095FD1921D05CB7E005D9FCC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		090A81ED1CC31C2F002F6EE2 /* Products */ = {
+		095FD1921D05CB7E005D9FCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				090A81EC1CC31C2F002F6EE2 /* CCNavTab.app */,
+				095FD1911D05CB7E005D9FCC /* CCNavTab.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		090A81EE1CC31C2F002F6EE2 /* CCNavTab */ = {
+		095FD1931D05CB7E005D9FCC /* CCNavTab */ = {
 			isa = PBXGroup;
 			children = (
-				095FD1771D05C266005D9FCC /* AppDelegate.h */,
-				095FD1781D05C266005D9FCC /* AppDelegate.m */,
-				090A82061CC31C4C002F6EE2 /* Classes */,
-				090A81FB1CC31C2F002F6EE2 /* Assets.xcassets */,
-				090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */,
-				090A82001CC31C2F002F6EE2 /* Info.plist */,
-				090A81EF1CC31C2F002F6EE2 /* Supporting Files */,
+				095FD1941D05CB7E005D9FCC /* CCNavTab.h */,
+				095FD19C1D05CB9D005D9FCC /* CCNavTab */,
+				095FD1961D05CB7E005D9FCC /* Info.plist */,
 			);
 			path = CCNavTab;
 			sourceTree = "<group>";
 		};
-		090A81EF1CC31C2F002F6EE2 /* Supporting Files */ = {
+		095FD19C1D05CB9D005D9FCC /* CCNavTab */ = {
 			isa = PBXGroup;
 			children = (
-				090A81F01CC31C2F002F6EE2 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		090A82061CC31C4C002F6EE2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				095FD17A1D05C61D005D9FCC /* MainController.h */,
-				095FD17B1D05C61D005D9FCC /* MainController.m */,
-				095FD17C1D05C61D005D9FCC /* OneController.h */,
-				095FD17D1D05C61D005D9FCC /* OneController.m */,
-				095FD17E1D05C61D005D9FCC /* ThreeController.h */,
-				095FD17F1D05C61D005D9FCC /* ThreeController.m */,
-				095FD1801D05C61D005D9FCC /* TwoController.h */,
-				095FD1811D05C61D005D9FCC /* TwoController.m */,
-				09FAEE111CF571AA00D8DB71 /* Lib */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		09FAEE111CF571AA00D8DB71 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				09FAEE121CF571AA00D8DB71 /* CCNavTab */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		09FAEE121CF571AA00D8DB71 /* CCNavTab */ = {
-			isa = PBXGroup;
-			children = (
-				09FAEE131CF571AA00D8DB71 /* Category */,
-				09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */,
-				09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */,
-				09FAEE181CF571AA00D8DB71 /* CCTabBar.h */,
-				09FAEE191CF571AA00D8DB71 /* CCTabBar.m */,
-				09FAEE1A1CF571AA00D8DB71 /* CCTabController.h */,
-				09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */,
-				09FAEE1C1CF571AA00D8DB71 /* CCTabItem.h */,
-				09FAEE1D1CF571AA00D8DB71 /* CCTabItem.m */,
+				095FD19D1D05CB9D005D9FCC /* Category */,
+				095FD1A01D05CB9D005D9FCC /* CCNavigationController.h */,
+				095FD1A11D05CB9D005D9FCC /* CCNavigationController.m */,
+				095FD1A21D05CB9D005D9FCC /* CCTabBar.h */,
+				095FD1A31D05CB9D005D9FCC /* CCTabBar.m */,
+				095FD1A41D05CB9D005D9FCC /* CCTabController.h */,
+				095FD1A51D05CB9D005D9FCC /* CCTabController.m */,
+				095FD1A61D05CB9D005D9FCC /* CCTabItem.h */,
+				095FD1A71D05CB9D005D9FCC /* CCTabItem.m */,
 			);
 			path = CCNavTab;
 			sourceTree = "<group>";
 		};
-		09FAEE131CF571AA00D8DB71 /* Category */ = {
+		095FD19D1D05CB9D005D9FCC /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */,
-				09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */,
+				095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */,
+				095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		095FD18E1D05CB7E005D9FCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+XCC.h in Headers */,
+				095FD1AE1D05CB9D005D9FCC /* CCTabController.h in Headers */,
+				095FD1AA1D05CB9D005D9FCC /* CCNavigationController.h in Headers */,
+				095FD1AC1D05CB9D005D9FCC /* CCTabBar.h in Headers */,
+				095FD1951D05CB7E005D9FCC /* CCNavTab.h in Headers */,
+				095FD1B01D05CB9D005D9FCC /* CCTabItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		090A81EB1CC31C2F002F6EE2 /* CCNavTab */ = {
+		095FD1901D05CB7E005D9FCC /* CCNavTab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 090A82031CC31C2F002F6EE2 /* Build configuration list for PBXNativeTarget "CCNavTab" */;
+			buildConfigurationList = 095FD1991D05CB7E005D9FCC /* Build configuration list for PBXNativeTarget "CCNavTab" */;
 			buildPhases = (
-				090A81E81CC31C2F002F6EE2 /* Sources */,
-				090A81E91CC31C2F002F6EE2 /* Frameworks */,
-				090A81EA1CC31C2F002F6EE2 /* Resources */,
+				095FD18C1D05CB7E005D9FCC /* Sources */,
+				095FD18D1D05CB7E005D9FCC /* Frameworks */,
+				095FD18E1D05CB7E005D9FCC /* Headers */,
+				095FD18F1D05CB7E005D9FCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,90 +132,71 @@
 			);
 			name = CCNavTab;
 			productName = CCNavTab;
-			productReference = 090A81EC1CC31C2F002F6EE2 /* CCNavTab.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 095FD1911D05CB7E005D9FCC /* CCNavTab.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		090A81E41CC31C2F002F6EE2 /* Project object */ = {
+		095FD1881D05CB7E005D9FCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = bear;
 				TargetAttributes = {
-					090A81EB1CC31C2F002F6EE2 = {
-						CreatedOnToolsVersion = 7.2;
+					095FD1901D05CB7E005D9FCC = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 090A81E71CC31C2F002F6EE2 /* Build configuration list for PBXProject "CCNavTab" */;
+			buildConfigurationList = 095FD18B1D05CB7E005D9FCC /* Build configuration list for PBXProject "CCNavTab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 090A81E31CC31C2F002F6EE2;
-			productRefGroup = 090A81ED1CC31C2F002F6EE2 /* Products */;
+			mainGroup = 095FD1871D05CB7E005D9FCC;
+			productRefGroup = 095FD1921D05CB7E005D9FCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				090A81EB1CC31C2F002F6EE2 /* CCNavTab */,
+				095FD1901D05CB7E005D9FCC /* CCNavTab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		090A81EA1CC31C2F002F6EE2 /* Resources */ = {
+		095FD18F1D05CB7E005D9FCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090A81FF1CC31C2F002F6EE2 /* LaunchScreen.storyboard in Resources */,
-				090A81FC1CC31C2F002F6EE2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		090A81E81CC31C2F002F6EE2 /* Sources */ = {
+		095FD18C1D05CB7E005D9FCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095FD1841D05C61D005D9FCC /* ThreeController.m in Sources */,
-				095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */,
-				09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */,
-				09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */,
-				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */,
-				095FD1821D05C61D005D9FCC /* MainController.m in Sources */,
-				095FD1851D05C61D005D9FCC /* TwoController.m in Sources */,
-				095FD1831D05C61D005D9FCC /* OneController.m in Sources */,
-				09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */,
-				09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */,
-				090A81F11CC31C2F002F6EE2 /* main.m in Sources */,
+				095FD1B11D05CB9D005D9FCC /* CCTabItem.m in Sources */,
+				095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+XCC.m in Sources */,
+				095FD1AF1D05CB9D005D9FCC /* CCTabController.m in Sources */,
+				095FD1AB1D05CB9D005D9FCC /* CCNavigationController.m in Sources */,
+				095FD1AD1D05CB9D005D9FCC /* CCTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		090A81FD1CC31C2F002F6EE2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				090A81FE1CC31C2F002F6EE2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		090A82011CC31C2F002F6EE2 /* Debug */ = {
+		095FD1971D05CB7E005D9FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -264,6 +212,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -281,18 +230,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		090A82021CC31C2F002F6EE2 /* Release */ = {
+		095FD1981D05CB7E005D9FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -308,6 +260,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -319,58 +272,69 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		090A82041CC31C2F002F6EE2 /* Debug */ = {
+		095FD19A1D05CB7E005D9FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.CCNavTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		090A82051CC31C2F002F6EE2 /* Release */ = {
+		095FD19B1D05CB7E005D9FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.CCNavTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		090A81E71CC31C2F002F6EE2 /* Build configuration list for PBXProject "CCNavTab" */ = {
+		095FD18B1D05CB7E005D9FCC /* Build configuration list for PBXProject "CCNavTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090A82011CC31C2F002F6EE2 /* Debug */,
-				090A82021CC31C2F002F6EE2 /* Release */,
+				095FD1971D05CB7E005D9FCC /* Debug */,
+				095FD1981D05CB7E005D9FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		090A82031CC31C2F002F6EE2 /* Build configuration list for PBXNativeTarget "CCNavTab" */ = {
+		095FD1991D05CB7E005D9FCC /* Build configuration list for PBXNativeTarget "CCNavTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				090A82041CC31C2F002F6EE2 /* Debug */,
-				090A82051CC31C2F002F6EE2 /* Release */,
+				095FD19A1D05CB7E005D9FCC /* Debug */,
+				095FD19B1D05CB7E005D9FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 090A81E41CC31C2F002F6EE2 /* Project object */;
+	rootObject = 095FD1881D05CB7E005D9FCC /* Project object */;
 }
