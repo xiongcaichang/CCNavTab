@@ -16,10 +16,12 @@
 	
 	
 	
-. 新建主控制器  MainController  继承自 CCTabController
+1. 新建主控制器  MainController  继承自 CCTabController
 	在   MainController 的  viewDidLoad 方法中
 	
-	```objc
+	
+```objc
+
     //----------1.第一步:配置导航栏的颜色    我这里使用的是随机色---------------------------------//
     self.navigationBackgroundColor=[UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
 
