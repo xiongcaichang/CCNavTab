@@ -40,18 +40,31 @@
     
 
 
-    //----------2.第二步:添加子控制器配置数组   可以添加任意个,但是最好不要超过6个---------------------------------//
+    /**
+     .第二步: 初始化控制器 添加子控制器配置数组   可以添加任意个,但是最好不要超过6个
+     
+    */
+    
+    OneController *oneVC = [[OneController alloc]init];//
+    
+    TwoController *twoVC = [[TwoController alloc]init];
+    
+//    以上也可控制器可从 StoryBord 加载
+//    1.初始化“初始控制器”（storyboard中箭头所指的控制器）
+
+    
+    
     self.childControllerAndIconArr=@[
                                      /************第一个控制器配置信息*********************/
                                      @{
-                                         VIEWCONTROLLER : [[OneController alloc]init],  //控制器对象
+                                         VIEWCONTROLLER :oneVC,  //控制器对象
                                          NORMAL_ICON : @"icon_classTable",             //正常状态的Icon 名称
                                          SELECTED_ICON : @"icon_classTable_selected",  //选中状态的Icon 名称
                                          TITLE : @"表"                                 //Nav和Tab的标题
                                          },
                                      /************第二个控制器配置信息*********************/
                                      @{
-                                         VIEWCONTROLLER : [[TwoController alloc]init],
+                                         VIEWCONTROLLER : twoVC,
                                          NORMAL_ICON : @"icon_me",
                                          SELECTED_ICON : @"icon_me_selected",
                                          TITLE : @"校园"
