@@ -1,7 +1,3 @@
-# CC NavTab
-
-
-
 ## CCNavTab  快速搭建  IOS  UI  主流框架  
 
 
