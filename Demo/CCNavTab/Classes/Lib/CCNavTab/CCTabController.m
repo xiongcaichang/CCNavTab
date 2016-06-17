@@ -116,20 +116,14 @@
             
         }
 
-        if (!self.navigationBarTintColor) {
-            [nav.navigationBar setTintColor:[UIColor whiteColor]];
-            [nav.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor]} forState:UIControlStateNormal];
-            
-            nav.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor blackColor]};
-        }else{
+
             [nav.navigationBar setTintColor:self.navigationBarTintColor];
             
             [nav.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:self.navigationBarTintColor} forState:UIControlStateNormal];
             
             nav.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:self.navigationBarTintColor};
             
-            
-        }
+    
         
 
         [_tabBar addItemWithIcon:[dict objectForKey:NORMAL_ICON] selectedIcon:[dict objectForKey:SELECTED_ICON]  title:[dict objectForKey:TITLE]];
@@ -139,6 +133,14 @@
 
 
 
+
+-(UIColor *)navigationBarTintColor{
+    if (!_navigationBarTintColor) {
+        _navigationBarTintColor = [UIColor blackColor];
+    }
+    
+    return _navigationBarTintColor;
+}
 
 
 @end

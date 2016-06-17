@@ -14,6 +14,7 @@
 		095FD1BF1D05DED8005D9FCC /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1B71D05DED8005D9FCC /* OneController.m */; };
 		095FD1C01D05DED8005D9FCC /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BA1D05DED8005D9FCC /* ThreeController.m */; };
 		095FD1C11D05DED8005D9FCC /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BD1D05DED8005D9FCC /* TwoController.m */; };
+		097BDB631D13B2300098EEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097BDB611D13B2300098EEE8 /* LaunchScreen.storyboard */; };
 		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+CC.m */; };
 		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
 		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
@@ -36,6 +37,7 @@
 		095FD1BA1D05DED8005D9FCC /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		095FD1BC1D05DED8005D9FCC /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		095FD1BD1D05DED8005D9FCC /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+		097BDB621D13B2300098EEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+CC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CC.h"; sourceTree = "<group>"; };
 		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+CC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CC.m"; sourceTree = "<group>"; };
 		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		090A81EF1CC31C2F002F6EE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				097BDB611D13B2300098EEE8 /* LaunchScreen.storyboard */,
 				095FD1771D05C266005D9FCC /* AppDelegate.h */,
 				095FD1781D05C266005D9FCC /* AppDelegate.m */,
 				090A81F01CC31C2F002F6EE2 /* main.m */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090A81FC1CC31C2F002F6EE2 /* Assets.xcassets in Resources */,
+				097BDB631D13B2300098EEE8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		097BDB611D13B2300098EEE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097BDB621D13B2300098EEE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		090A82011CC31C2F002F6EE2 /* Debug */ = {
@@ -348,7 +363,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -361,7 +375,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

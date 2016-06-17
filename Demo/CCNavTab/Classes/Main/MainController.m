@@ -45,7 +45,7 @@
      
     */
     
-    OneController *oneVC = [[OneController alloc]init];//
+    OneController *oneVC = [[OneController alloc]init];
     
     TwoController *twoVC = [[TwoController alloc]init];
     
