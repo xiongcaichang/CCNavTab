@@ -6,9 +6,9 @@
 //  Copyright © 2016年 bear. All rights reserved.
 //
 
-#import "UIBarButtonItem+XCC.h"
+#import "UIBarButtonItem+CC.h"
 
-@implementation UIBarButtonItem (XCC)
+@implementation UIBarButtonItem (CC)
 
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action
 {

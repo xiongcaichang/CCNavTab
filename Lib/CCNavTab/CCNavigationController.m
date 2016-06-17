@@ -20,13 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
-
     [self.navigationBar setTintColor:[UIColor whiteColor]];
 
 
     self.navigationBar.shadowImage=[[UIImage alloc]init];
-
 
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"tabbar_background"] forBarMetrics:UIBarMetricsDefault];
 
