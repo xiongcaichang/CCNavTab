@@ -17,13 +17,27 @@
 
 @implementation MainController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //
+    
 
-
-    //----------1.第一步:配置导航栏的颜色    我这里使用的是随机色---------------------------------//
-    self.navigationBackgroundColor=[UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+    /**
+     配置导航栏的颜色/图片
+     注意:当背景颜色设置时图片不生效 一般二选其一  默认为系统白色
+    */
+    self.navigationBarBackgroundColor=[UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+    
+    //self.navigationBarBackgroundImage = [UIImage imageNamed:@"background"] ;
+    
+    
+    /**
+     可选配置
+     导航栏文字颜色  Title  和 BarButtonItem  默认为黑色
+     */
+    self.navigationBarTintColor = [UIColor whiteColor];
+    
 
 
     //----------2.第二步:添加子控制器配置数组   可以添加任意个,但是最好不要超过6个---------------------------------//
@@ -43,7 +57,7 @@
                                          TITLE : @"校园"
                                          },
                                      ];
-
+    
 
 }
 

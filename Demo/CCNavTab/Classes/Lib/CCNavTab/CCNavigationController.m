@@ -20,15 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
-
     [self.navigationBar setTintColor:[UIColor whiteColor]];
 
-
     self.navigationBar.shadowImage=[[UIImage alloc]init];
-
-
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"tabbar_background"] forBarMetrics:UIBarMetricsDefault];
 
 
 }
@@ -50,9 +44,9 @@
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.topViewController.navigationItem.backBarButtonItem = backItem;
 
-    [self.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
-
-    self.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor]};
+//    [self.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+//
+//    self.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:[UIColor whiteColor]};
 
     // 调用系统默认做法,因为只有系统才知道怎么做push
     [super pushViewController:viewController animated:animated];

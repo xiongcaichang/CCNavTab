@@ -22,6 +22,8 @@
 
 
     MainController *mainVc=[[MainController alloc]init];
+    
+    self.window.backgroundColor=[UIColor whiteColor];
 
     self.window.rootViewController=mainVc;
 

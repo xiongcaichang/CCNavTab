@@ -15,7 +15,7 @@
 		095FD1BF1D05DED8005D9FCC /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1B71D05DED8005D9FCC /* OneController.m */; };
 		095FD1C01D05DED8005D9FCC /* ThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BA1D05DED8005D9FCC /* ThreeController.m */; };
 		095FD1C11D05DED8005D9FCC /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1BD1D05DED8005D9FCC /* TwoController.m */; };
-		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */; };
+		09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+CC.m */; };
 		09FAEE1F1CF571AA00D8DB71 /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */; };
 		09FAEE201CF571AA00D8DB71 /* CCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE191CF571AA00D8DB71 /* CCTabBar.m */; };
 		09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAEE1B1CF571AA00D8DB71 /* CCTabController.m */; };
@@ -38,8 +38,8 @@
 		095FD1BA1D05DED8005D9FCC /* ThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeController.m; sourceTree = "<group>"; };
 		095FD1BC1D05DED8005D9FCC /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
 		095FD1BD1D05DED8005D9FCC /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
-		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
-		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
+		09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+CC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CC.h"; sourceTree = "<group>"; };
+		09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+CC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CC.m"; sourceTree = "<group>"; };
 		09FAEE161CF571AA00D8DB71 /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
 		09FAEE171CF571AA00D8DB71 /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
 		09FAEE181CF571AA00D8DB71 /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
@@ -174,8 +174,8 @@
 		09FAEE131CF571AA00D8DB71 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+XCC.h */,
-				09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+XCC.m */,
+				09FAEE141CF571AA00D8DB71 /* UIBarButtonItem+CC.h */,
+				09FAEE151CF571AA00D8DB71 /* UIBarButtonItem+CC.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -253,7 +253,7 @@
 				095FD1791D05C266005D9FCC /* AppDelegate.m in Sources */,
 				09FAEE221CF571AA00D8DB71 /* CCTabItem.m in Sources */,
 				09FAEE211CF571AA00D8DB71 /* CCTabController.m in Sources */,
-				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+XCC.m in Sources */,
+				09FAEE1E1CF571AA00D8DB71 /* UIBarButtonItem+CC.m in Sources */,
 				095FD1BE1D05DED8005D9FCC /* MainController.m in Sources */,
 				095FD1C11D05DED8005D9FCC /* TwoController.m in Sources */,
 				095FD1BF1D05DED8005D9FCC /* OneController.m in Sources */,

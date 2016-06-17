@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		095FD1951D05CB7E005D9FCC /* CCNavTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1941D05CB7E005D9FCC /* CCNavTab.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+XCC.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */; };
-		095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+XCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */; };
+		095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+CC.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+CC.h */; };
+		095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+CC.m */; };
 		095FD1AA1D05CB9D005D9FCC /* CCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A01D05CB9D005D9FCC /* CCNavigationController.h */; };
 		095FD1AB1D05CB9D005D9FCC /* CCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095FD1A11D05CB9D005D9FCC /* CCNavigationController.m */; };
 		095FD1AC1D05CB9D005D9FCC /* CCTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 095FD1A21D05CB9D005D9FCC /* CCTabBar.h */; };
@@ -24,8 +24,8 @@
 		095FD1911D05CB7E005D9FCC /* CCNavTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCNavTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		095FD1941D05CB7E005D9FCC /* CCNavTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCNavTab.h; sourceTree = "<group>"; };
 		095FD1961D05CB7E005D9FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XCC.h"; sourceTree = "<group>"; };
-		095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XCC.m"; sourceTree = "<group>"; };
+		095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+CC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CC.h"; sourceTree = "<group>"; };
+		095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+CC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CC.m"; sourceTree = "<group>"; };
 		095FD1A01D05CB9D005D9FCC /* CCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNavigationController.h; sourceTree = "<group>"; };
 		095FD1A11D05CB9D005D9FCC /* CCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNavigationController.m; sourceTree = "<group>"; };
 		095FD1A21D05CB9D005D9FCC /* CCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTabBar.h; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		095FD19D1D05CB9D005D9FCC /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+XCC.h */,
-				095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+XCC.m */,
+				095FD19E1D05CB9D005D9FCC /* UIBarButtonItem+CC.h */,
+				095FD19F1D05CB9D005D9FCC /* UIBarButtonItem+CC.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+XCC.h in Headers */,
+				095FD1A81D05CB9D005D9FCC /* UIBarButtonItem+CC.h in Headers */,
 				095FD1AE1D05CB9D005D9FCC /* CCTabController.h in Headers */,
 				095FD1AA1D05CB9D005D9FCC /* CCNavigationController.h in Headers */,
 				095FD1AC1D05CB9D005D9FCC /* CCTabBar.h in Headers */,
@@ -182,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095FD1B11D05CB9D005D9FCC /* CCTabItem.m in Sources */,
-				095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+XCC.m in Sources */,
+				095FD1A91D05CB9D005D9FCC /* UIBarButtonItem+CC.m in Sources */,
 				095FD1AF1D05CB9D005D9FCC /* CCTabController.m in Sources */,
 				095FD1AB1D05CB9D005D9FCC /* CCNavigationController.m in Sources */,
 				095FD1AD1D05CB9D005D9FCC /* CCTabBar.m in Sources */,
@@ -231,6 +231,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = mh_dylib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -273,6 +274,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = mh_dylib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,6 +293,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.CCNavTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +310,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CCNavTab/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongcaichang.CCNavTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,6 +337,7 @@
 				095FD19B1D05CB7E005D9FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

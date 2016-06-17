@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIBarButtonItem (XCC)
+@interface UIBarButtonItem (CC)
 /**
  * 快速创建item
  */
