@@ -16,8 +16,7 @@
 	
 	
 	
-### 1.新建主控制器  MainController  继承自 CCTabController
-	在   MainController 的  viewDidLoad 方法中
+### 1.新建主控制器  MainController  继承自 CCTabController 在   MainController 的  viewDidLoad 方法中
 	
 
 >可选配置
@@ -70,7 +69,8 @@
 
 
 
-## 截图
+
+### 截图
 
 
 <img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demo.png" alt="Drawing" width="300px" />
