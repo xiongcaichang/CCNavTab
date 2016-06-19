@@ -11,9 +11,13 @@
 
 @interface CCTabController ()<CCTabBarDelegate>
 
+
+
+
 @end
 
 @implementation CCTabController
+
 
 - (void)viewDidLoad
 {
@@ -50,6 +54,9 @@
     CCTabBar *tabBar = [[CCTabBar alloc] initWithFrame:self.tabBar.bounds];
 
     tabBar.delegate=self;
+        _tabBar=tabBar;
+    
+    [self setValue:_tabBar forKey:@"_tabBar"];
 
     [self.tabBar addSubview:tabBar];
     
@@ -93,11 +100,31 @@
         //取出字典
         NSDictionary *dict=childControllerAndIconArr[i];
 
-        CCNavigationController *nav=[[CCNavigationController alloc]initWithRootViewController:[dict objectForKey:VIEWCONTROLLER]];
+        
+        UIViewController *vc = [dict objectForKey:VIEWCONTROLLER];
+        CCNavigationController *nav=[[CCNavigationController alloc]initWithRootViewController:vc];
+        [vc setTitle:[dict objectForKey:TITLE]];
 
         [self addChildViewController:nav];
+        
+        
+        if (self.navigationBarBackgroundColor  ==  nil) {
+            [nav.navigationBar setBackgroundImage:self.navigationBarBackgroundImage forBarMetrics:UIBarMetricsDefault];
+            
+        }else{
+            [nav.navigationBar setBarTintColor:self.navigationBarBackgroundColor];
+            
+        }
 
-        [nav.navigationBar setBarTintColor:self.navigationBackgroundColor];
+
+            [nav.navigationBar setTintColor:self.navigationBarTintColor];
+            
+            [nav.navigationItem.backBarButtonItem setTitleTextAttributes:@{NSForegroundColorAttributeName:self.navigationBarTintColor} forState:UIControlStateNormal];
+            
+            nav.navigationBar.titleTextAttributes=@{NSForegroundColorAttributeName:self.navigationBarTintColor};
+            
+    
+        
 
         [_tabBar addItemWithIcon:[dict objectForKey:NORMAL_ICON] selectedIcon:[dict objectForKey:SELECTED_ICON]  title:[dict objectForKey:TITLE]];
 
@@ -107,8 +134,12 @@
 
 
 
--(void)setNavigationBackgroundColor:(UIColor *)navigationBackgroundColor{
-    _navigationBackgroundColor=navigationBackgroundColor;
+-(UIColor *)navigationBarTintColor{
+    if (!_navigationBarTintColor) {
+        _navigationBarTintColor = [UIColor blackColor];
+    }
+    
+    return _navigationBarTintColor;
 }
 
 

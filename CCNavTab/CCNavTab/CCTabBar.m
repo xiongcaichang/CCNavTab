@@ -63,7 +63,6 @@
 
       // 3.赋值
       _selectedItem = item;
-      NSLog(@"click   is   😊 %@",item);
 }
 
 
