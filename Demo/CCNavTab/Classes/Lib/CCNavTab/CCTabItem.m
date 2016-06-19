@@ -27,7 +27,7 @@
         [self setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
 
         // 3.图片的内容模式
-        self.imageView.contentMode = UIViewContentModeCenter;
+        self.imageView.contentMode = UIViewContentModeScaleToFill;
 
     }
     return self;
@@ -42,10 +42,10 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
     
-    CGFloat imageX = 0;
-    CGFloat imageY = 0;
-    CGFloat imageWidth = contentRect.size.width;
-    CGFloat imageHeight = contentRect.size.height * ( 1- kTitleRatio );
+    CGFloat imageX = (contentRect.size.width-30)*0.5;
+    CGFloat imageY = 2;
+    CGFloat imageWidth = 30;
+    CGFloat imageHeight = 30;
     return CGRectMake(imageX, imageY, imageWidth, imageHeight);
 }
 
