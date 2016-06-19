@@ -16,7 +16,7 @@
  1.新建主控制器  MainController  继承自 CCTabController 在   MainController 的  viewDidLoad 方法中
 	
 
-> 可选配置
+* 可选配置
 
 ```objc
 
@@ -39,7 +39,7 @@
 
   2.第二步:添加子控制器配置数组    
 
->配置数组  VIEWCONTROLLER  除下面代码创建方式外外可从storyboard 加载
+* 配置数组  VIEWCONTROLLER  除下面代码创建方式外外可从storyboard 加载
 
 
 ``` objc
