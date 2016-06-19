@@ -1,7 +1,7 @@
-## CCNavTab  快速搭建  IOS  UI  主流框架  
+# CCNavTab  快速搭建  IOS  UI  主流框架  
 
-
-*  Pod  导入
+##安装
+*  cocopods 
 
 ```
  pod 'CCNavTab'
@@ -11,7 +11,8 @@
 	新建工程,讲 CCNavTab 的demo  的 Lib  文件夹拖入您的项目
 	
 	
-	
+##使用
+
  1.新建主控制器  MainController  继承自 CCTabController 在   MainController 的  viewDidLoad 方法中
 	
 
