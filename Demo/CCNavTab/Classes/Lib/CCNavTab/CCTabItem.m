@@ -23,7 +23,8 @@
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
 
         // 2.文字大小
-        self.titleLabel.font = [UIFont systemFontOfSize:14];
+        CGFloat fontSize=([UIScreen mainScreen].bounds.size.width/414.0)*12;
+        self.titleLabel.font = [UIFont systemFontOfSize:fontSize];
         [self setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
 
         // 3.图片的内容模式
@@ -42,10 +43,10 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
     
-    CGFloat imageX = (contentRect.size.width-30)*0.5;
-    CGFloat imageY = 2;
-    CGFloat imageWidth = 30;
-    CGFloat imageHeight = 30;
+    CGFloat imageX = (contentRect.size.width-27)*0.5;
+    CGFloat imageY = 3;
+    CGFloat imageWidth = 27;
+    CGFloat imageHeight = 27;
     return CGRectMake(imageX, imageY, imageWidth, imageHeight);
 }
 

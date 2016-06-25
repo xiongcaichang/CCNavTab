@@ -23,6 +23,7 @@
     NSLog(@"%@-----",[self uuid]);
     self.view.backgroundColor=[UIColor whiteColor];
 
+    
 
     UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
     button.frame=CGRectMake(0, 0, 200, 60);
