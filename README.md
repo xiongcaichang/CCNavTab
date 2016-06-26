@@ -1,5 +1,12 @@
 # CCNavTab  快速搭建  IOS  UI  主流框架  
 
+[![CocoaPods](http://img.shields.io/cocoapods/v/CCNavTab.svg?style=flat)](http://cocoapods.org/?q= YYText)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/CCNavTab.svg?style=flat)](http://cocoapods.org/?q= CCNavTab)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+
+
+
+
 ##安装
 *  cocopods 
 
