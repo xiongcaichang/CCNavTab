@@ -9,9 +9,6 @@
 [![Dependency Status](https://www.versioneye.com/objective-c/CCNavTab/3.3/badge.svg?style=flat)](https://www.versioneye.com/objective-c/CCNavTab/3.3)
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/rs/CCNavTab)
-
-
 ##安装
 *  cocopods 
 
