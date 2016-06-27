@@ -1,10 +1,15 @@
 # CCNavTab  快速搭建  IOS  UI  主流框架  
 
-[![CocoaPods](http://img.shields.io/cocoapods/v/CCNavTab.svg?style=flat)](http://cocoapods.org/?q= YYText)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/p/CCNavTab.svg?style=flat)](http://cocoapods.org/?q= CCNavTab)&nbsp;
+
+
+[![Build Status](http://img.shields.io/travis/rs/CCNavTab/master.svg?style=flat)](https://travis-ci.org/rs/CCNavTab)
+[![Pod Version](http://img.shields.io/cocoapods/v/CCNavTab.svg?style=flat)](http://cocoadocs.org/docsets/CCNavTab/)
+[![Pod Platform](http://img.shields.io/cocoapods/p/CCNavTab.svg?style=flat)](http://cocoadocs.org/docsets/CCNavTab/)
+[![Pod License](http://img.shields.io/cocoapods/l/CCNavTab.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Dependency Status](https://www.versioneye.com/objective-c/CCNavTab/3.3/badge.svg?style=flat)](https://www.versioneye.com/objective-c/CCNavTab/3.3)
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
-
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/rs/CCNavTab)
 
 
 ##安装
