@@ -22,7 +22,6 @@
     
     self.tabBarItem.badgeValue=@"8";
     
-    NSLog(@"%@-----",[self uuid]);
     self.view.backgroundColor=[UIColor whiteColor];
 
     
@@ -42,14 +41,6 @@
 
 }
 
--(NSString*) uuid {
-    CFUUIDRef puuid = CFUUIDCreate( nil );
-    CFStringRef uuidString = CFUUIDCreateString( nil, puuid );
-    NSString * result = (NSString *)CFBridgingRelease(CFStringCreateCopy( NULL, uuidString));
-    CFRelease(puuid);
-    CFRelease(uuidString);
-    return result ;
-}
 
 -(void)jumpToThree{
     [self.navigationController pushViewController:[[ThreeController alloc]init] animated:YES];
