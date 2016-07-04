@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tabBarItem.badgeValue=@"8";
+    
     NSLog(@"%@-----",[self uuid]);
     self.view.backgroundColor=[UIColor whiteColor];
 

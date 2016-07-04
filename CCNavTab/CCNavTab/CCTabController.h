@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CCTabBar.h"
 
-
+#define ACTION_NAME @"action_name"
 
 #define VIEWCONTROLLER @"VC"
 

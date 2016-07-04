@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+       self.tabBarItem.badgeValue=@"6";
     
 
     UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];

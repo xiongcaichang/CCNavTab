@@ -13,6 +13,13 @@
 // 文字的高度比例
 #define kTitleRatio 0.3
 
+@interface CCTabItem()
+
+
+
+
+@end
+
 
 @implementation CCTabItem
 - (id)initWithFrame:(CGRect)frame
@@ -23,15 +30,36 @@
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
 
         // 2.文字大小
-        self.titleLabel.font = [UIFont systemFontOfSize:14];
+        CGFloat fontSize=([UIScreen mainScreen].bounds.size.width/414.0)*12;
+        self.titleLabel.font = [UIFont systemFontOfSize:fontSize];
         [self setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
 
         // 3.图片的内容模式
         self.imageView.contentMode = UIViewContentModeScaleToFill;
+        
+        
+        //4.添加 bageView
+        UILabel *label=[[UILabel alloc]init];
+        label.layer.cornerRadius=10;
+        label.font=[UIFont systemFontOfSize:10];
+        label.layer.masksToBounds=YES;
+        label.textAlignment=NSTextAlignmentCenter;
+        label.backgroundColor=[UIColor redColor];
+        label.hidden=YES;
+        
+        label.textColor=[UIColor whiteColor];
+        [self addSubview:label];
+        self.bageView=label;
+        
 
     }
     return self;
 }
+
+
+
+
+
 
 #pragma mark 覆盖父类在highlighted时的所有操作
 - (void)setHighlighted:(BOOL)highlighted {
@@ -42,10 +70,12 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect
 {
     
-    CGFloat imageX = (contentRect.size.width-30)*0.5;
-    CGFloat imageY = 2;
-    CGFloat imageWidth = 30;
-    CGFloat imageHeight = 30;
+    CGFloat imageX = (contentRect.size.width-27)*0.5;
+    CGFloat imageY = 3;
+    CGFloat imageWidth = 27;
+    CGFloat imageHeight = 27;
+    
+    self.bageView.frame=CGRectMake(imageX+imageWidth+5, 5, 20, 20);
     return CGRectMake(imageX, imageY, imageWidth, imageHeight);
 }
 

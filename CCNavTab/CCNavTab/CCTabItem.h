@@ -10,4 +10,6 @@
 
 @interface CCTabItem : UIButton
 
+@property (nonatomic, weak) UILabel *bageView;
+
 @end

@@ -11,6 +11,7 @@
 
 @implementation CCTabBar
 
+
 - (void)addItemWithIcon:(NSString *)icon selectedIcon:(NSString *)selected title:(NSString *)title
 {
     // 1.创建item
