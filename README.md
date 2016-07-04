@@ -74,6 +74,14 @@
 
 
 
+.bageView 使用  和系统一样,当为   @"0"   时则隐藏
+
+```objc
+
+       self.tabBarItem.badgeValue=@"6";
+
+```
+
 
 
 ### 截图
