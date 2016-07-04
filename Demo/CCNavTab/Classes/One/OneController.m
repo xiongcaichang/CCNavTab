@@ -57,53 +57,5 @@
 
 
 
-//
-//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-//    return 10;
-//}
-//
-
-//
-//-(NSMutableArray *)arrayM{
-//    
-//    
-//    if (!_arrayM) {
-//        
-//        _arrayM = [NSMutableArray array];
-//        
-//        
-//        _arrayM= (NSMutableArray *)@[
-//                                     @{
-//                                         @"VC":@"",
-//                                         @"title":@"UI"
-//                                         },
-//                                     @{
-//                                         @"VC":@"",
-//                                         @"title":@"title"
-//                                         
-//                                         },
-//                                     @{
-//                                         @"VC":@"",
-//                                         @"title":@"title"
-//                                         
-//                                         },
-//                                     @{
-//                                         @"VC":@"",
-//                                         @"title":@"title"
-//                                         },
-//                                     @{
-//                                         @"VC":@"",
-//                                         @"title":@"title"
-//                                         },
-//                   
-//                   ];
-//        
-//    }
-//    
-//    
-//    return _arrayM;
-//}
-
-
 
 @end
