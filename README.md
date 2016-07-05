@@ -87,5 +87,5 @@
 ### 截图
 
 
-<img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demo.gif" alt="Drawing" width="300px" />
+<img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demoCapture.gif" alt="Drawing" width="300px" />
 
