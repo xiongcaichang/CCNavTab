@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tabBarItem.badgeValue=@"8";
+    
     
     self.view.backgroundColor=[UIColor whiteColor];
 

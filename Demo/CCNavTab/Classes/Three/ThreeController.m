@@ -8,14 +8,12 @@
 
 #import "ThreeController.h"
 
-@interface ThreeController ()
-
-@end
 
 @implementation ThreeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"子控制器";
        self.view.backgroundColor=[UIColor whiteColor];
     
 
