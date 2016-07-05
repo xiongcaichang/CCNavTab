@@ -1,6 +1,6 @@
 //
-//  UIBarButtonItem+XCC.m
-//  XCNavTab
+//  UIBarButtonItem+CC.m
+//  CCNavTab
 //  url:https://github.com/xiongcaichang/CCNavTab
 //  Created by bear on 16/3/31.
 //  Copyright © 2016年 bear. All rights reserved.
@@ -30,7 +30,6 @@
     self.navigationBarBackgroundColor=[UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
     
     //self.navigationBarBackgroundImage = [UIImage imageNamed:@"background"] ;
-    
     
     /**
      可选配置
