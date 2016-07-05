@@ -41,7 +41,7 @@
         //4.添加 bageView
         UILabel *label=[[UILabel alloc]init];
         label.layer.cornerRadius=10;
-        label.font=[UIFont systemFontOfSize:10];
+        label.font=[UIFont systemFontOfSize:11];
         label.layer.masksToBounds=YES;
         label.textAlignment=NSTextAlignmentCenter;
         label.backgroundColor=[UIColor redColor];
@@ -75,7 +75,7 @@
     CGFloat imageWidth = 27;
     CGFloat imageHeight = 27;
     
-    self.bageView.frame=CGRectMake(imageX+imageWidth+5, 5, 20, 20);
+    self.bageView.frame=CGRectMake(imageX+imageWidth-5, 3, 20, 20);
     return CGRectMake(imageX, imageY, imageWidth, imageHeight);
 }
 
