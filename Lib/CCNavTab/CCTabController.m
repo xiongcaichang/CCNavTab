@@ -37,7 +37,7 @@
     
     // 删除self.tabBar中的子控件除了自定义tabBar
     for (UIView *childView in self.tabBar.subviews) {
-        if (![childView isKindOfClass:[CCTabBar class]]) { // 不是自己的tabBar
+        if (![childView isKindOfClass:[CCTabBar class]] && ![childView isKindOfClass:[UIImageView class]]) { // 不是自己的tabBar
             
             [childView removeFromSuperview];
         }
