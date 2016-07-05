@@ -11,7 +11,9 @@
 
 #define ACTION_NAME @"action_name"
 
-#define VIEWCONTROLLER @"VC"
+#define VC_VIEWCONTROLLER @"VC"
+
+#define SB_VIEWCONTROLLER @"SB"
 
 #define NORMAL_ICON @"ICONOR"
 
