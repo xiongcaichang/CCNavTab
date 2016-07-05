@@ -1,6 +1,6 @@
 //
 //  CCNavigationController.m
-//  hedaAssistant
+//  CCNavTab
 //
 //  Created by bear on 16/3/24.
 //  Copyright © 2016年 bear. All rights reserved.

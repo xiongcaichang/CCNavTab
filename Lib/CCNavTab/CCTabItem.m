@@ -1,6 +1,6 @@
 //
-//  UIBarButtonItem+XCC.m
-//  XCNavTab
+//  UIBarButtonItem+CC.m
+//  CCNavTab
 //  url:https://github.com/xiongcaichang/CCNavTab
 //  Created by bear on 16/3/31.
 //  Copyright © 2016年 bear. All rights reserved.
@@ -75,7 +75,7 @@
     CGFloat imageWidth = 27;
     CGFloat imageHeight = 27;
     
-    self.bageView.frame=CGRectMake(imageX+imageWidth+5, 5, 20, 20);
+    self.bageView.frame=CGRectMake(imageX+imageWidth+3, 5, 20, 20);
     return CGRectMake(imageX, imageY, imageWidth, imageHeight);
 }
 
