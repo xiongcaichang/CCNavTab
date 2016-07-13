@@ -23,7 +23,7 @@
 
     // 图标
     [item setImage:[UIImage imageNamed:icon] forState:UIControlStateNormal];
-    [item setImage:[UIImage imageNamed:selected] forState:UIControlStateSelected];
+    [item setImage:[UIImage imageNamed:selected] forState:UIControlStateDisabled];
 
     // 监听item的点击
     [item addTarget:self action:@selector(itemClick:) forControlEvents:UIControlEventTouchDown];
@@ -56,11 +56,9 @@
         [_delegate tabbar:self to:item.tag ];
     }
 
-      // 1.取消选中当前选中的item
-      _selectedItem.selected = NO;
+     _selectedItem.enabled = YES;
 
-      // 2.选中点击的item
-      item.selected = YES;
+    item.enabled = NO;
 
       // 3.赋值
       _selectedItem = item;
