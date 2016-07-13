@@ -5,7 +5,7 @@
 [![Build Status](http://img.shields.io/travis/rs/CCNavTab/master.svg?style=flat)](https://travis-ci.org/rs/CCNavTab)
 [![Pod Version](http://img.shields.io/cocoapods/v/CCNavTab.svg?style=flat)](http://cocoadocs.org/docsets/CCNavTab/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/CCNavTab.svg?style=flat)](http://cocoadocs.org/docsets/CCNavTab/)
-[![Pod License](http://img.shields.io/cocoapods/l/CCNavTab.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
+[![Pod License](http://img.shields.io/cocoapods/l/CCNavTab.svg?style=flat)](https://mit-license.org)
 [![Dependency Status](https://www.versioneye.com/objective-c/CCNavTab/3.3/badge.svg?style=flat)](https://www.versioneye.com/objective-c/CCNavTab/3.3)
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
