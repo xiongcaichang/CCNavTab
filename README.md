@@ -9,6 +9,14 @@
 [![Dependency Status](https://www.versioneye.com/objective-c/CCNavTab/3.3/badge.svg?style=flat)](https://www.versioneye.com/objective-c/CCNavTab/3.3)
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
+
+*其他框架推荐 快速自动以转场动画
+https://github.com/xiongcaichang/CCTransition
+
+
+
+
+
 ##安装
 *  cocopods 
 
