@@ -97,7 +97,4 @@ https://github.com/xiongcaichang/CCTransition
 
 <img src="https://github.com/xiongcaichang/CCNavTab/blob/master/demoCapture.gif" alt="Drawing" width="300px" />
 
->Addtion
-
-如果您有好的建议和更改意见可以 issue  或者直接将 更改后的代码 pull request给我,让我们一起共同探讨学习
 
